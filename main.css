@@ -1,0 +1,19 @@
+#sos-nu {
+    color: rgb(213, 117, 33);
+    font-size: 16px;
+}
+
+
+:root {
+    --text-color: green;
+
+}
+
+.class {
+    color: var(--text-color);
+}
+
+h1 {
+    --my-color-local: red;
+    color: var(--my-color-local)
+}
